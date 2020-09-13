@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    background: #1c7430;
+
+}
+h2{
+    text-align: center;
+}
+div>div{
+    border: 2px solid black;
+    padding: 2px;
+
+
+}
+
+@media (min-width: 991px) {
+div.about1,div.about2,div.about3{
+    background: gray;
+    float: left;
+    width: 30%;
+
+
+}
+}
+@media (max-width: 991px )and (min-width: 768px){
+    div.about1,div.about2{
+    background: gray;
+    float: left;
+    width: 40%;
+
+}
+    div.about3{
+        clear: both;
+        background: gray;
+
+    }
+
+}
+@media (max-width: 768px) {
+    div.about1,div.about2,div.about3{
+        background: grey;
+    }
+
+
+}
